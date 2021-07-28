@@ -1,0 +1,40 @@
+.sidebar {
+    background: #313335;
+    color: whitesmoke;
+    
+}
+
+body {
+    height: 100vh;
+    background: #dadada;
+    
+}
+
+.mainBody {
+    background: white;
+}
+.search {
+    background: white;
+}
+.smallBox1 {
+    background: white;
+}
+.smallBox2 {
+    background: white;
+}
+
+.parent {
+    display: grid;
+    height: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    grid-column: 1 / span 0;
+    grid-row: 1 / span 3; 
+}
+
+.bodyElements {
+    grid-column: 3 /span 3;
+    grid-row: 1 / span ;
+}
