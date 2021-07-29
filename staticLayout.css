@@ -1,40 +1,106 @@
 .sidebar {
-    background: #313335;
-    color: whitesmoke;
-    
+  height: 100vh;
+  padding-top: 120px;
+  background: #323439;
+  color: whitesmoke;
+  text-align: center;
 }
 
 body {
-    height: 100vh;
-    background: #dadada;
-    
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+  background: #dadada;
 }
 
 .mainBody {
-    background: white;
+  padding-left: 100px;
+  margin-right: 700px;
+  background: white;
 }
 .search {
-    background: white;
+  padding-left: 100px;
+  margin-right: 700px;
+  background: white;
 }
 .smallBox1 {
-    background: white;
+  background: white;
+  width: 150px;
+  height: 150px;
+  margin: 35px;
 }
 .smallBox2 {
-    background: white;
+  background: white;
+  width: 150px;
+  height: 150px;
+  margin: 35px;
 }
 
 .parent {
-    display: grid;
-    height: 100%;
+  display: grid;
+  height: 100%;
 }
 
 .sidebar {
-    height: 100%;
-    grid-column: 1 / span 0;
-    grid-row: 1 / span 3; 
+  height: 100%;
+  grid-column: 1 / span 0;
+  grid-row: 1 / span 3;
 }
 
 .bodyElements {
-    grid-column: 3 /span 3;
-    grid-row: 1 / span ;
+  grid-column: 3 / span 3;
+  grid-row: 1 / span;
+}
+
+.floatBox {
+  background: rgb(27, 27, 27);
+  height: 200px;
+  width: ;
+}
+
+.learn {
+  margin-left: 50px;
+  padding-left: 50px;
+  background: #323439;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  height: 40px;
+  width: 136px;
+  border-radius: 20px;
+}
+
+#textTry {
+  padding-top: 25px;
+}
+
+.textHelp {
+  color: #80848c;
+}
+
+.bottomNav {
+  /* padding-top: 300px; */
+  margin-top: 300%;
+}
+
+.alignText {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.textPad {
+  margin: 10px;
+}
+
+button {
+  color: white;
+  border: none;
+  background: #e04f42;
+  height: 40px;
+  width: 136px;
+  border-radius: 20px;
+}
+
+.divPosition {
+  display: flex;
 }
